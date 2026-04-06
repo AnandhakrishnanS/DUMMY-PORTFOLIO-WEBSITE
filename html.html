@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arizonia&family=Oi&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <section id="logo">
+            <h1 id="main_name">Anandhakrishnan_S</h1>
+        </section>
+        <!-- checkbox is used as a pure CSS toggle for sidebar (no JS is used for the effect) -->
+        <input type="checkbox" id="nav_active">
+        <label for="nav_active" class="open_sidebar">
+            <img src="menu.png" alt="">
+        </label>
+        <!-- label tied to checkbox to open sidebar -->
+        <div class="nav_container">
+            <label for="nav_active" class="close_sidebar">
+                <img src="close.png" alt="">
+            </label>
+            <a href="#Home" id="home-button" class="link_button">Home</a>
+            <a href="#About" id="about-button" class="link_button">About</a>
+            <a href="#skills" id="skills-button" class="link_button">Skills</a>
+            <a href="#Services" id="services-button" class="link_button">Certificates</a>
+            <a href="#Portfolio" id="portfolio-button" class="link_button">Portfolio</a>
+            <a href="#contact" id="contact-button" class="link_button">Contact</a>
+
+
+        </div>
+
+    </nav>
+
+    <section id="Home">
+
+
+        <article id="greeting">
+            <h2 id="hi">Hi, it's </h2>
+            <!-- each letter wrapped in span to animate individually for the glow animation -->
+            <div id="Anandhu">
+                <span>A</span>
+                <span>N</span>
+                <span>A</span>
+                <span>N</span>
+                <span>D</span>
+                <span>H</span>
+            </div>
+            <h3 id="intro">Web Designer</h3>
+            <h3>Graphic Designer</h3>
+            <section id="socials">
+                <a href="https://wa.me/+919061634874"><img src="whatsapp.png" alt="whatsapp" class="social_icon"
+                        id="whats"></a>
+                <a href="https://www.instagram.com/anandha_krishnans/"><img src="instagram.png" alt="insta"
+                        class="social_icon" id="insta"></a>
+                <a href="https://www.linkedin.com/in/anandha-krishnan-ab1580338/"><img src="linkedin.png" alt="linkedin"
+                        class="social_icon" id="link"></a>
+                <a href=""><img src="twitter.png" alt="" class="social_icon" id="twit"></a>
+            </section>
+            <a href="resume.png" class="link_button">
+                <p class="abouts">Resume</p>
+            </a>
+
+        </article>
+        <!-- spotlight is just a div for the background blue shade-->
+        <div id="bg_spotlight"></div>
+        <div id="image_container">
+            <img src="boy.png" alt="my_image" class="my_photo">
+        </div>
+
+
+
+
+    </section>
+    <section id="About">
+        <div id="spotlight"></div>
+        <img src="boy2.png" alt="smile" id="my_smile_photo">
+        <article id="about_section">
+            <article id="about_heading" class="abouts">
+                <h1>About_ME</h1>
+            </article>
+            <section id="about_me_section" class="abouts">
+                <article id="about_me">
+                    <span>I’m</span>
+                    <span>a</span>
+                    <span>web</span>
+                    <span>#developer</span>
+                    <span>focused</span>
+                    <span>on</span>
+                    <span>building</span>
+                    <span>clean,</span>
+                    <span>functional</span>
+                    <span>applications</span>
+                    <span>and</span>
+                    <span>exploring</span>
+                    <span>AI.</span>
+
+                    <span>I</span>
+                    <span>enjoy</span>
+                    <span>solving</span>
+                    <span>complex</span>
+                    <span>problems</span>
+                    <span>through</span>
+                    <span>code</span>
+                    <span>and</span>
+                    <span>constantly</span>
+                    <span>learning</span>
+                    <span>new</span>
+                    <span>technologies.</span>
+
+                    <span>I</span>
+                    <span>prefer</span>
+                    <span>working</span>
+                    <span>independently,</span>
+                    <span>where</span>
+                    <span>I</span>
+                    <span>can</span>
+                    <span>focus</span>
+                    <span>deeply</span>
+                    <span>and</span>
+                    <span>build</span>
+                    <span>meaningful</span>
+                    <span>projects.</span>
+
+                    <span>Outside</span>
+                    <span>of</span>
+                    <span>coding,</span>
+                    <span>I</span>
+                    <span>explore</span>
+                    <span>philosophy,</span>
+                    <span>the</span>
+                    <span>universe,</span>
+                    <span>and</span>
+                    <span>enjoy</span>
+                    <span>psychological</span>
+                    <span>horror</span>
+                    <span>games</span>
+                    <span>and</span>
+                    <span>manga.</span>
+                </article>
+                <button id="readmore" class="abouts">
+                    <p>Read More</p>
+                </button>
+
+            </section>
+
+            <article id="hobbies" class="abouts">
+                <h1>Hobbies</h1>
+            </article>
+            <article id="hobby_icons">
+                <div id="gaming" class="abouts"><img src="controller.png" alt="" class="hobby"></div>
+                <div id="draw" class="abouts"><img src="draw.png" alt="" class="hobby"> </div>
+                <div id="reading" class="abouts"><img src="reading.png" alt="" class="hobby"></div>
+
+            </article>
+        </article>
+
+
+
+
+    </section>
+    <section id="skills">
+        <article id="skills_heading">
+            <span>S</span>
+            <span>k</span>
+            <span>I</span>
+            <span>L</span>
+            <span>L</span>
+            <span>S</span>
+        </article>
+        <section id='skills_progress'>
+            <h2 class="skill_name">HTML</h2>
+            <div class="bar">
+                <div class="progress" id="html">
+                    <h3 class="progress_number">80%</h3>
+                </div>
+            </div>
+            <h2 class="skill_name">CSS</h2>
+            <div class="bar">
+                <div class="progress" id="css">
+                    <h3 class="progress_number">60%</h3>
+                </div>
+            </div>
+            <h2 class="skill_name">PYTHON</h2>
+            <div class="bar">
+                <div class="progress" id="python">
+                    <h3 class="progress_number">90%</h3>
+                </div>
+            </div>
+            <h2 class="skill_name">JAVA</h2>
+            <div class="bar">
+                <div class="progress" id="java">
+                    <h3 class="progress_number">50%</h3>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section id="Services">
+        <div id="certificate">
+            <h1>Certificates</h1>
+        </div>
+        <div class="service_container">
+            <div class="skill_blocks">
+                <h2>AWS DEVOPS</h2>
+                <p>Designing scalable cloud infrastructure,
+                    CI/CD pipelines, and automated deployment workflows using AWS tools.</p>
+                <a href="aws.png" class="link_button">
+                    <p class="abouts">View</p>
+                </a>
+            </div>
+            <div class="skill_blocks">
+                <h2>GOOGLE DEEP LEARN</h2>
+                <p>Building and training neural networks using
+                    TensorFlow to solve real-world AI and computer vision problems.</p>
+                <a href="google.png" class="link_button">
+                    <p class="abouts">View</p>
+                </a>
+            </div>
+            <div class="skill_blocks">
+                <h2>INTERNSHALA FULL STACK</h2>
+                <p>Developed end-to-end web applications using modern
+                    frontend and backend technologies with database integration.</p>
+                <a href="intern.png" class="link_button">
+                    <p class="abouts">View</p>
+                </a>
+            </div>
+            <div class="skill_blocks">
+                <h2>3D VISUALIZATION </h2>
+                <p>Creating realistic 3D models and visual
+                    experiences using industry-standard tools for design and simulation.</p>
+                <a href="3d.png" class="link_button">
+                    <p class="abouts">View</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="Portfolio">
+        <div id="Portfolio_heading">
+            <h1>Portfolio</h1>
+        </div>
+        <div id="portfolio_container">
+            <div class="portfolio_block">
+                <img src="mario.jpg" alt="">
+                <!-- overlay sits on top of image and appears on hover -->
+                <div class="overlay">
+                    <div class="overlay">
+                        <p>Mario like platformer made in unity with python.used frame works like pygames </p>
+                        <a href="" class="link_button">
+                            <p class="abouts">View</p>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="portfolio_block">
+                <img src="aesth.jpg" alt="">
+                <div class="overlay">
+                    <p>Built an interactive visualization tool for algorithms like A* and Dijkstra using
+                        JavaScript.</p>
+                    <a href="" class="link_button">
+                        <p class="abouts">View</p>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio_block">
+                <img src="ecom.jpg" alt="">
+                <div class="overlay">
+                    <p>Built a product landing page with responsive layouts and interactive UI components using
+                        vanilla JavaScript.</p>
+                    <a href="" class="link_button">
+                        <p class="abouts">View</p>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio_block">
+                <img src="soft.jpg" alt="">
+                <div class="overlay">
+                    <p>Built a Java-based system using OOP principles (inheritance, abstraction) to manage
+                        employee
+                        records, roles, and payroll data. </p>
+                    <a href="" class="link_button">
+                        <p class="abouts">View</p>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio_block">
+                <img src="todo.jpg" alt="">
+                <div class="overlay">
+                    <p>Developed a responsive task tracker using HTML, CSS, and JavaScript with local storage
+                        integration for persistent data.</p>
+                    <a href="" class="link_button">
+                        <p class="abouts">View</p>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio_block">
+                <img src="ai.jpg" alt="">
+                <div class="overlay">
+                    <p>Implemented a basic ML model to detect and classify hand gestures using Python and
+                        OpenCV.
+                    </p>
+                    <a href="" class="link_button">
+                        <p class="abouts">View</p>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio_block">
+                <img src="genai.jpg" alt="">
+                <div class="overlay">
+                    <p>Developed an IoT-based system using Arduino to control home appliances via mobile
+                        interface.
+                    </p>
+                    <a href="" class="link_button">
+                        <p class="abouts">View</p>
+                    </a>
+                </div>
+            </div>
+    </section>
+    <section id="contact">
+        <div id="contact_heading">
+            <h1>Contact</h1>
+        </div>
+        <div>
+            <form action="mailto:layasanjayan@gmail.com" method="post" enctype="text/plain" id="contact_container">
+                <input type="text" placeholder="Name" id="name_input" class="inputs" name="name">
+                <input type="email" placeholder="Email" id="email_input" class="inputs" name="email">
+                <textarea id="query_input" class="inputs" name="query" placeholder="Type message here..."></textarea>
+                <input type="submit" id="submit" class="abouts" value="Send Message">
+            </form>
+        </div>
+
+        <footer>
+            <div>
+                <h4>Designed by Anandhakrishnan_S</h4>
+            </div>
+            <div id="footer_contact">
+                <a href="tel:+919061634874"><img src="phone.png" alt="Call_us" class="footer_cont"></a>
+                <a href="mailto:layasanjayan@gmail.com"><img src="envelope.png" alt="Mail_us" class="footer_cont"></a>
+
+            </div>
+        </footer>
+
+    </section>
+
+
+</body>
+
+</html>
